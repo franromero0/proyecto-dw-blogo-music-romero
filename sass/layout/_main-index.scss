@@ -1,0 +1,413 @@
+@import '../base/general';
+.first-bg{
+    height: 800px;
+    background-color:$bg;
+    margin-top: 0.5rem;
+    margin-bottom: 10rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(7,1fr);
+    grid-template-areas:
+        ". . cta cta cta cta"
+        "logo logo cta cta cta cta"
+        "logo logo cta cta cta cta"
+        "logo logo cta cta cta cta"
+        "logo logo . . . .";
+    .logo{
+        grid-area: logo;
+        margin-left: 4rem;
+        margin-top: 4rem;
+        filter: drop-shadow(-9px 20px 4px rgba(0, 0, 0, 0.267));
+        img{
+            width: 350px;
+            object-fit: contain;
+        }
+    }
+
+    .first-section{
+        width: 100%;
+        grid-area: cta;
+        margin-top: 1rem;
+        margin-left: 6rem;
+        h1{
+            font-size: 3.5rem;
+            font-weight: 700;
+            text-align: start;
+            margin-left: 2rem;   
+            color: $text-orange;
+            text-shadow: 2px 2px 10px black;
+            &::first-line{
+                color: $color-one;
+                font-size: 3.5rem;
+                font-weight: 700;
+                text-shadow: 2px 2px 10px black;
+            } 
+        }
+        p{
+            font-weight: 100;
+            margin-left: 20rem;
+            font-size: 2rem;
+            max-width: 20rem;
+            text-align: center; 
+        
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin-left: 21rem;
+            margin-top: 1rem;
+            gap: 1.5rem;
+            li {
+                a .fa-brands{
+                color: $color-one; 
+                font-size: 3rem;
+                filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.267));
+                &:hover{
+                    transform: scale(1.1);
+                    transition: all 100ms;
+                }
+            }
+                .ig{
+                    &:hover{
+                        background-image: linear-gradient(to right bottom, #405de6, #d84fbf, #ff6c8d, #ffa470, #ffdc80);
+                        -webkit-background-clip: text; 
+                        background-clip: text;
+                        color: transparent;       
+                        text-shadow: 0px 0px 30px #d84fbf;              
+                    }
+                }
+                .yt{
+                    &:hover{
+                        color: #cb3234 ;
+                        text-shadow: 0px 0px 30px #cb323496;
+                    }
+                }
+                .spoty{
+                    &:hover{
+                        color: #1DB954 ;
+                        text-shadow: 0px 0px 30px #1db9549c;
+                    }
+                }
+                .deezer{
+                    &:hover{
+                        background-image: linear-gradient(to bottom, #1a6dff, #5865ff, #8258ff, #a646ff, #c822ff);
+                        -webkit-background-clip: text; 
+                        background-clip: text;
+                        color: transparent;
+                        text-shadow: 0px 0px 30px #5866ffa1;
+                    }
+                }
+        }
+    }
+    .button-light {
+        margin-left: 23rem;
+        margin-top: 1rem;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));   
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            color: $color-three;
+            font-size: 1.5rem;
+            font-weight: 500;
+            font-family: 'Kanit', sans-serif;
+            text-align: center;
+            padding: 0.5rem 2rem;
+            border-radius: 45px;
+            overflow: hidden;
+            position: relative; 
+            border: 1px solid $color-one;
+            text-shadow: 0px 0px 1px black;
+            &:hover {
+                background-color: transparent;
+                border-radius: 30px;
+                color: $color-one;
+                border: 1px solid $color-one;
+                cursor: pointer;
+                filter: drop-shadow(-12px 16px 12px rgba(0, 0, 0, 0.349));
+                transition: all 300ms ease-out;
+            }
+        .fa-regular {
+            margin-left: 2rem;
+            margin-right: -1rem; 
+            z-index: 1; 
+            color: $color-one;
+        } 
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 25%; 
+            height: 100%;
+            background-color: $color-two; 
+            z-index: 0; 
+            transition: width 0.3s; 
+            }    
+            &:hover::after {
+                width: 0; 
+                }
+            }
+        }
+    }
+    .polygon-index{
+        position: absolute;
+        top: 110px;
+        left: 420px;
+        width: 900px;
+        opacity: 0.6;
+        filter: drop-shadow(0px 2px 10px rgb(0, 0, 0)); 
+    }
+}
+.latest-prod{  
+    width: 100%;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-family: $font-montserrat;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5rem;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px black;
+        border-radius: 5px;
+        filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+        box-shadow: -7px 7px 25px 0 rgba(0, 0, 0, 0.616);
+        span{
+            color: $text-orange;
+            margin-left: 1rem;      
+        }
+    }
+    .productions-bg{
+        height: auto;
+        width: 100%;
+        background-color: $bg;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        box-shadow: -7px 7px 25px 0 rgba(0, 0, 0, 0.616);
+        border-radius: 5px;
+        a img{
+            width: 20rem;
+            margin: 4rem 0;
+            filter: grayscale(0.25) drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px black;
+            &:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+                transition: transform 250ms linear;
+                filter: grayscale(0) drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+            }
+        }
+    }
+    .ver-mas{
+        background-color: $color-one;
+        text-decoration: none;
+        color: $color-three;
+        text-align: center;
+        padding: 0.2rem 2rem;
+        border-radius: 45px;
+        font-size: 1.25rem;
+        font-weight: 500;
+        width: 20rem;    
+        border: 1px solid $color-one ;
+        filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+        &:hover{
+            background-color:transparent;
+            color: $color-one;  
+            cursor: pointer;
+            filter: drop-shadow(-12px 16px 12px rgba(0, 0, 0, 0.349));         
+        }    
+    }
+}
+.spotify-embed{
+    align-content: center;
+    background-color: $bg;
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0;
+    margin-bottom: 8rem;
+    iframe{
+        width: 60%;
+        height: 480px;
+        filter: drop-shadow(-12px 16px 12px rgba(0, 0, 0, 0.349));
+    }
+}
+.new-sletter{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 15rem;
+    background-color: $color-one;
+    margin-bottom: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    filter: drop-shadow(-12px 16px 12px rgba(0, 0, 0, 0.349));
+    box-shadow: -7px 7px 25px 0 rgba(0, 0, 0, 0.616);
+    h3{
+        font-family: $font-montserrat;
+        font-weight: 900;
+        font-size: 1.5rem;
+        color: $color-three;
+        text-transform: uppercase;
+        max-width: 10rem;
+        text-align: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25rem;
+        gap: 0.5rem;
+        input{
+            height: 2rem;
+            width: 25rem;
+            border: 3px solid $color-two;
+            border-radius: 1.5px;
+        }
+        .new-sletter-btn{
+            background-color: $color-three;
+            color: $color-one;
+            text-transform: uppercase;
+            font-weight: 700;
+            max-width: 70%;
+            border: 3px solid $color-one;
+            border-radius: 20px;
+            &:hover{
+                background-color: $color-one;
+                color: $color-three;
+                border: 3px solid $color-three;
+                transition: all 500ms ease-out;
+                cursor: pointer;
+            }
+        }
+    }
+    p{
+        color: $color-three;
+        font-weight: 200;
+        max-width: 10rem;
+        text-align: center;
+    }
+}
+.talent-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-family: $font-montserrat;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        background-color: $bg;
+        padding: 1rem 0;
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: 0;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px black;
+        box-shadow: -7px 7px 25px 0 rgba(0, 0, 0, 0.616);
+        filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+        border-radius: 5px;
+        span{
+            color: $text-orange;
+            margin-right: 1rem;
+            
+        }
+    }
+    p{  
+        max-width: 60%;
+        font-weight: 300;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0rem;
+        padding: 2rem 2rem;
+        background-color: transparent;
+        filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+        span{
+            color: $text-orange;
+        }
+    }
+    .talent-search-bg{
+        height: 600px;
+        width: 100%;
+        background-color: $bg;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7rem;
+        box-shadow: -7px 7px 25px 0 rgba(0, 0, 0, 0.616);
+        
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 8rem 0.5rem;
+            filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));
+            .talent-search{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                .talent-input{
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        width: 25rem;
+                        height: 3rem;
+                        margin-bottom: 1rem;
+                    }
+                    textarea{
+                        width: 30rem;
+                        height: 19rem;
+                        padding-bottom: 4rem;
+                        margin-bottom: 0.9rem;
+                    }
+                }
+            }
+            .talent-button{
+                color: $color-three;
+                font-size: 1.5rem;
+                font-weight: 550;
+                text-align: center;
+                width: 32rem;
+                height: 3rem;
+                border-radius: 45px;
+                filter: drop-shadow(-7px 6px 4px rgba(0, 0, 0, 0.274));
+                margin-bottom: 15rem;
+                border: 1px solid $color-one ;
+                &:hover{
+                    background-color:transparent;
+                    color: $color-one;  
+                    filter: drop-shadow(-12px 16px 12px rgba(0, 0, 0, 0.349));
+                    cursor: pointer;
+                    transition: all 200ms;
+                } 
+            }
+        }
+        
+        
+    }
+}
