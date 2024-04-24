@@ -152,7 +152,7 @@ body {
 .first-bg {
   height: 800px;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 0.5rem;
+  margin-top: 0rem;
   margin-bottom: 10rem;
   display: grid;
   width: 100%;
@@ -780,13 +780,13 @@ body {
         width: 95%;
         overflow: hidden; }
         .second-bg .about-us-bg div p:nth-child(2) {
-          box-shadow: -7px 7px 25px 0 rgba(0, 0, 0, 0.616);
+          box-shadow: -4px 4px 10px 0 rgba(0, 0, 0, 0.616), 4px -4px 10px 0 rgba(0, 0, 0, 0.616);
           width: 100%;
           font-size: 1.7rem;
           padding: 1rem 1rem;
           background-color: transparent;
           color: #4B4B4B;
-          border-radius: 5px; }
+          border-radius: 45px; }
       .second-bg .about-us-bg div img {
         width: 100%;
         margin-right: 5rem;
@@ -850,7 +850,8 @@ body {
       margin: auto;
       max-width: 35rem; }
     .second-bg .client-section .client-section-youtube {
-      opacity: 0.6; }
+      opacity: 0.6;
+      cursor: pointer; }
       .second-bg .client-section .client-section-youtube:hover {
         opacity: 1;
         transform: scale(1.1); }
@@ -861,7 +862,6 @@ body {
   background-size: cover;
   justify-content: space-between;
   align-items: flex-end;
-  height: 100%;
   position: sticky;
   top: 0;
   z-index: 999; }
@@ -1052,7 +1052,6 @@ body {
   background-size: cover;
   justify-content: space-between;
   align-items: flex-end;
-  height: 100%;
   position: sticky;
   top: 0;
   z-index: 999; }
@@ -1219,7 +1218,7 @@ body {
 .first-bg {
   height: 800px;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 0.5rem;
+  margin-top: 0rem;
   margin-bottom: 10rem;
   display: grid;
   width: 100%;
@@ -1847,13 +1846,13 @@ body {
         width: 95%;
         overflow: hidden; }
         .second-bg .about-us-bg div p:nth-child(2) {
-          box-shadow: -7px 7px 25px 0 rgba(0, 0, 0, 0.616);
+          box-shadow: -4px 4px 10px 0 rgba(0, 0, 0, 0.616), 4px -4px 10px 0 rgba(0, 0, 0, 0.616);
           width: 100%;
           font-size: 1.7rem;
           padding: 1rem 1rem;
           background-color: transparent;
           color: #4B4B4B;
-          border-radius: 5px; }
+          border-radius: 45px; }
       .second-bg .about-us-bg div img {
         width: 100%;
         margin-right: 5rem;
@@ -1917,7 +1916,8 @@ body {
       margin: auto;
       max-width: 35rem; }
     .second-bg .client-section .client-section-youtube {
-      opacity: 0.6; }
+      opacity: 0.6;
+      cursor: pointer; }
       .second-bg .client-section .client-section-youtube:hover {
         opacity: 1;
         transform: scale(1.1); }
@@ -2318,8 +2318,6 @@ body {
   .line {
     display: block; }
   /* Contact page MOBILE */
-  .second-bg .services-order .services-articles .service-card article h2 {
-    font-size: 2.5rem; }
   .second-bg .contact-order .contact-content {
     width: 100%;
     align-content: center; }
