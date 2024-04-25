@@ -5,6 +5,7 @@
 @import "../main-index";
 @import "../pages";
 
+// Mediaquerys para que las páginas de services se vean bien tanto en 1400px como mayores.
 @media (min-width: 1650px){
     .first-bg{
         .logo img{
@@ -73,6 +74,13 @@
         }
     }
 }
+// MediaQuery con el fin de que no se rompa la web en pantallas menores hasta la media query de tablet
+@media (max-width: 1400px){ 
+    .polygon-index{
+        display: none;
+    }
+}
+// MEDIDAS TABLET
 @media (max-width: 1085px){
     .header-index{
         justify-content: space-between;
@@ -109,7 +117,7 @@
     .ul-links {
         width: 100%;
         position: absolute;
-        top: 95px;
+        top: 96px;
         left: 0;
         height: 0;   
         display: flex;
@@ -368,6 +376,7 @@
         }
     }
 }
+// MEDIDAS TELEFONOS
 @media (max-width: 576px){
     .first-bg{
         margin-bottom: 5rem;
@@ -382,8 +391,7 @@
         p{
             font-size: 1.2rem;
             max-width: 16.5rem;
-            font-weight: 200;
-           
+            font-weight: 200;     
         }
         .talent-search-bg{
             height: 40rem;
@@ -460,7 +468,7 @@
                 width: 100%;
                 font-weight: 200;
                 font-size: 1.5rem ;
-                  &:nth-child(2){
+                &:nth-child(2){
                     box-shadow: -7px 7px 25px 0 rgba(0, 0, 0, 0.616);
                     width: 100%;
                     padding: 1rem 1rem;
@@ -470,8 +478,7 @@
                     border-radius: 5px;
                     font-size: 1.5rem ;
                 }
-            }
-           
+            }   
         }
     }
     .client-section{

@@ -1,4 +1,5 @@
 @import '../base/general';
+@import '../utilities/mixins';
 .first-bg{
     height: 800px;
     background-color:$bg;
@@ -109,9 +110,7 @@
         flex-direction: row;
         filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37));   
         button {
-            display: flex;
-            align-items: center;
-            justify-content: space-between; 
+            @include flex(row,space-between,center,0);
             color: $color-three;
             font-size: 1.5rem;
             font-weight: 500;
@@ -167,15 +166,11 @@
 .latest-prod{  
     width: 100%;
     margin-bottom: 10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column,center,center,0);
     h2{
         font-family: $font-montserrat;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(row,center,center,0);
         font-size: 3.5rem;
         font-weight: 800;
         text-align: center;

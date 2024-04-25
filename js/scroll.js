@@ -1,4 +1,3 @@
-        // Función para manejar el evento de desplazamiento
         function handleScroll(event) {
 
             const delta = event.deltaY || event.detail || (-event.wheelDelta);
@@ -12,4 +11,6 @@
             event.preventDefault();
         }
         window.addEventListener('wheel', handleScroll, { passive: false });
+
+    
 

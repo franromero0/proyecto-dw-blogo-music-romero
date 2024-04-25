@@ -231,8 +231,10 @@ body {
       filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37)); }
       .first-bg .first-section .button-light button {
         display: flex;
-        align-items: center;
+        flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+        gap: 0;
         color: #2E2E2E;
         font-size: 1.5rem;
         font-weight: 500;
@@ -282,13 +284,17 @@ body {
   margin-bottom: 10rem;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  justify-content: center;
+  align-items: center;
+  gap: 0; }
   .latest-prod h2 {
     font-family: "Montserrat", sans-serif;
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 0;
     font-size: 3.5rem;
     font-weight: 800;
     text-align: center;
@@ -780,7 +786,7 @@ body {
         width: 95%;
         overflow: hidden; }
         .second-bg .about-us-bg div p:nth-child(2) {
-          box-shadow: -4px 4px 10px 0 rgba(0, 0, 0, 0.616), 4px -4px 10px 0 rgba(0, 0, 0, 0.616);
+          box-shadow: -4px 4px 10px 0 rgba(0, 0, 0, 0.2), 4px -4px 10px 0 rgba(0, 0, 0, 0.2);
           width: 100%;
           font-size: 1.7rem;
           padding: 1rem 1rem;
@@ -1297,8 +1303,10 @@ body {
       filter: drop-shadow(-12px 20px 4px rgba(0, 0, 0, 0.37)); }
       .first-bg .first-section .button-light button {
         display: flex;
-        align-items: center;
+        flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+        gap: 0;
         color: #2E2E2E;
         font-size: 1.5rem;
         font-weight: 500;
@@ -1348,13 +1356,17 @@ body {
   margin-bottom: 10rem;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  justify-content: center;
+  align-items: center;
+  gap: 0; }
   .latest-prod h2 {
     font-family: "Montserrat", sans-serif;
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 0;
     font-size: 3.5rem;
     font-weight: 800;
     text-align: center;
@@ -1846,7 +1858,7 @@ body {
         width: 95%;
         overflow: hidden; }
         .second-bg .about-us-bg div p:nth-child(2) {
-          box-shadow: -4px 4px 10px 0 rgba(0, 0, 0, 0.616), 4px -4px 10px 0 rgba(0, 0, 0, 0.616);
+          box-shadow: -4px 4px 10px 0 rgba(0, 0, 0, 0.2), 4px -4px 10px 0 rgba(0, 0, 0, 0.2);
           width: 100%;
           font-size: 1.7rem;
           padding: 1rem 1rem;
@@ -1969,6 +1981,10 @@ body {
       font-size: 0.9rem;
       max-width: 18.75rem; } }
 
+@media (max-width: 1400px) {
+  .polygon-index {
+    display: none; } }
+
 @media (max-width: 1085px) {
   .header-index {
     justify-content: space-between;
@@ -1994,7 +2010,7 @@ body {
   .ul-links {
     width: 100%;
     position: absolute;
-    top: 95px;
+    top: 96px;
     left: 0;
     height: 0;
     display: flex;
