@@ -60,7 +60,7 @@ La versión final del proyecto **BLOGO Music** cuenta con:
 ~~  Todos los archivos HTML cuentan con etiquetas personalizadas que ayudarán a mejorar el posicionamiento en los motores de búsqueda de Google.~~
 
 
-### RESPONSIVE
+### ~~RESPONSIVE~~
 - ~~Las páginas full responsive **hasta la entrega 2** son: 'contact.html' y 'products.html'.~~
 
 - ~~Los archivos HTML full responsive hasta la entrega 3 son: 'contact.html' - 'products.html' - 'index.html'.~~
