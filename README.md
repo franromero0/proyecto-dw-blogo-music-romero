@@ -10,8 +10,21 @@ Se eligió esta marca debido a la cercanía que see posee directamente con el du
 En este proyecto se utilizaron las siguientes tecnlogías:
 
 - CSS y HTML: En absolutamente todas las páginas del sitio.
+- SASS
 - BOOTSTRAP: Se utilizó en 'pages/single-product.html'
 
+### ENTREGA FINAL
+La versión final del proyecto **BLOGO Music** cuenta con:
+- 5 HTML **full responsive**. (index.html - services.html - products.html - contact.html - about-us.html).
+- Archivo CSS **desarrollado completamente con SASS**, el mismo incluye: partials, nesting, mixins, etc.
+- **Optimización de SEO** para ayudar al posicionamiento de la web en los buscadores.
+###LINKs de la entrega FINAL:
+- [Link a **GitHub deploy**](https://franromero0.github.io/proyecto-dw-blogo-music-romero/ "Link a GitHub deploy")
+- [Link a **Netlify deploy**](https://blogomusic.netlify.app/ "Link a Netlify deploy")
+- [Link a **PRESUPUESTO**](https://drive.google.com/file/d/1jbdRsrdHZeyNXoBC1CiitOMhebycOnyo/view?usp=sharing "Link a PRESUPUESTO")
+- [Link a diseño en **FIGMA**](https://www.figma.com/file/EHSuQuzMnMuPKIK1qaXE5s/proyecto-desarrollo-web?type=design&node-id=0-1&mode=design&t=JNnUSHsq41V7582h-0 "Link a diseño en FIGMA")
+
+## PRE-ENTREGAS ANTERIORES
 ### ~~Consignas pre-entrega 2~~
 - ~~5 páginas total mente maquetadas: Las páginas maquetadas son: 'index.html', 'services.html', 'products.html', 'single-product.html', 'about-us.html', 'contact.html'. En cada una de ellas se intentó mantener el uso de buena semantica y uso de nesting.~~
 
@@ -25,29 +38,33 @@ En este proyecto se utilizaron las siguientes tecnlogías:
 
 - ~~Implementación de frameworks: El framework 'bootstrap' fue utilizado para realizar la página 'single-product.html'. Si bien no se pudo obtener el resultado deseado debido a su pocas variaciones tanto de colores, botones, etc. Sirvió para profundizar con el mismo y entenderlo un poco más.~~
 
-### Consignas pre-entrega 3
-**- Contar con los 5 archivos HTML listos ✔**
+### ~~Consignas pre-entrega 3~~
+**- ~~Contar con los 5 archivos HTML listos~~ ✔**
 
-**- Utilizar SASS en el proyecto ✔**
+**- ~~Utilizar SASS en el proyecto~~ ✔**
 
-**- Utilizar nesting - variables - partials en SASS ✔**
+**- ~~Utilizar nesting - variables - partials en SASS ~~✔**
 
-  Se utilizó nesting entre las clases con el fin de optimizar tiempo a la hora de reescribir en SASS todo el código previamente realizado. Se tiene en cuenta la facilidad que brindará en un futuro y la reducción de código a la que puede llevar usar nesting sin la necesidad de crear clases para cada elemento.
-  Las variables están pensadas estrategicamente para poder cambiar colores de todos los elementos que estén relacionados sin perder la estetica de la web. Mientras que los partials abarcan porciones medianas de código.
+  ~~Se utilizó nesting entre las clases con el fin de optimizar tiempo a la hora de reescribir en SASS todo el código previamente realizado. Se tiene en cuenta la facilidad que brindará en un futuro y la reducción de código a la que puede llevar usar nesting sin la necesidad de crear clases para cada elemento.~~
+  ~~Las variables están pensadas estrategicamente para poder cambiar colores de todos los elementos que estén relacionados sin perder la estetica de la web. Mientras que los partials abarcan porciones medianas de código.~~
 
-**- Tener al menos 3 HTML full responsive ✔**
+**- ~~Tener al menos 3 HTML full responsive~~ ✔**
 
-  Los archivos HTML full responsive hasta la entrega 3 son: 'contact.html' - 'products.html' - 'index.html'.
+  ~~Los archivos HTML full responsive hasta la entrega 3 son: 'contact.html' - 'products.html' - 'index.html'.~~
 
-**- Agregar SEO a todos los archivos HTML ✔**
+**- ~~Agregar SEO a todos los archivos HTML~~ ✔**
 
-  Todos los archivos HTML cuentan con etiquetas personalizadas que ayudarán a mejorar el posicionamiento en los motores de búsqueda de Google.
+~~  Todos los archivos HTML cuentan con etiquetas personalizadas que ayudarán a mejorar el posicionamiento en los motores de búsqueda de Google.~~
 
 
 ### RESPONSIVE
 - ~~Las páginas full responsive **hasta la entrega 2** son: 'contact.html' y 'products.html'.~~
 
-- Los archivos HTML full responsive hasta la entrega 3 son: 'contact.html' - 'products.html' - 'index.html'.
+- ~~Los archivos HTML full responsive hasta la entrega 3 son: 'contact.html' - 'products.html' - 'index.html'.~~
 
-###LINK de DEPLOY
-- [Click aquí para acceder al deploy](http://http://https://franromero0.github.io/proyecto-desarrollow-web-sass/  "Click aquí para acceder al deploy")
+###~~LINK de DEPLOY~~
+- ~~[Click aquí para acceder al deploy de la** entrega 3**](http://http://https://franromero0.github.io/proyecto-desarrollow-web-sass/  "Click aquí para acceder al deploy")~~
+~~~~
+
+
+
