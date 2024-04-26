@@ -1,5 +1,7 @@
 # Proyecto BLOGO Music
 ## Alumno Francisco Nahuel Romero
+## Comisión: #53830
+## Institución: Coder House
 El proyecto trata de un emprendimiento dedicada a la producción musical y venta de productos digitales para otras personas que se dediquen al rubro.
 
 [![](https://i.imgur.com/KOxlpcz.png)](http://https://i.imgur.com/KOxlpcz.png)
@@ -7,11 +9,12 @@ El proyecto trata de un emprendimiento dedicada a la producción musical y venta
 Se eligió esta marca debido a la cercanía que see posee directamente con el dueño con el fin de poner en practica con una empresa real los conocimientos adquiridos en el curso y así obtener un feedback del 'cliente'.
 
 ###Tecnologías utilizadas
-En este proyecto se utilizaron las siguientes tecnlogías:
+En este proyecto se utilizaron las siguientes tecnologías:
 
-- CSS y HTML: En absolutamente todas las páginas del sitio.
-- SASS
-- BOOTSTRAP: Se utilizó en 'pages/single-product.html'
+- **CSS y HTML:** En absolutamente todas las páginas del sitio.
+- **SASS**
+- **BOOTSTRAP**: Se utilizó en 'pages/single-product.html'
+- **JS**: Para reducir el tamaño del scroll en las páginas.
 
 ### ENTREGA FINAL
 La versión final del proyecto **BLOGO Music** cuenta con:
@@ -65,6 +68,3 @@ La versión final del proyecto **BLOGO Music** cuenta con:
 ###~~LINK de DEPLOY~~
 - ~~[Click aquí para acceder al deploy de la** entrega 3**](http://http://https://franromero0.github.io/proyecto-desarrollow-web-sass/  "Click aquí para acceder al deploy")~~
 ~~~~
-
-
-
