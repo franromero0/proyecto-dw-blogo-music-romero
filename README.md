@@ -8,7 +8,7 @@ El proyecto trata de un emprendimiento dedicada a la producción musical y venta
 
 Se eligió esta marca debido a la cercanía que see posee directamente con el dueño con el fin de poner en practica con una empresa real los conocimientos adquiridos en el curso y así obtener un feedback del 'cliente'.
 
-###Tecnologías utilizadas
+### Tecnologías utilizadas
 En este proyecto se utilizaron las siguientes tecnologías:
 
 - **CSS y HTML:** En absolutamente todas las páginas del sitio.
