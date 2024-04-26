@@ -1,5 +1,5 @@
 # Proyecto BLOGO Music
-## Alumno Francisco Nahuel Romero
+## Alumno: Francisco Nahuel Romero
 ## Comisión: #53830
 ## Institución: Coder House
 El proyecto trata de un emprendimiento dedicada a la producción musical y venta de productos digitales para otras personas que se dediquen al rubro.
